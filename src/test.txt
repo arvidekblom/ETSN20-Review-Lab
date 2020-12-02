@@ -1,0 +1,5 @@
+cat
+notacat
+dog
+ludde
+cat
