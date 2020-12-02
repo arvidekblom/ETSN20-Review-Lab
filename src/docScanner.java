@@ -31,7 +31,7 @@ public class docScanner {
                 e.printStackTrace();
             }
         } else {
-            System.out.println("Command from argument 1 not recognized, exiting program.");
+            System.out.println("Command from argument 1 not recognized, try 'search' instead. Exiting program.");
             System.exit(0);
         }
     }
