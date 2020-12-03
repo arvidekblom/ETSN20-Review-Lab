@@ -25,6 +25,8 @@ public class docScanner {
                     lineNum++;
                     if (line.contains(searchWord)) {
                         System.out.println("Match found on line " + lineNum);
+                        System.out.println("Line contents: " + line);
+
                     }
                 }
             } catch (FileNotFoundException e) {
