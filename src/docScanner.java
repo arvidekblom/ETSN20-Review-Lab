@@ -25,13 +25,15 @@ public class docScanner {
                     lineNum++;
                     if (line.contains(searchWord)) {
                         System.out.println("Match found on line " + lineNum);
+                        System.out.println("Line contents: " + line);
+
                     }
                 }
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
         } else {
-            System.out.println("Command from argument 1 not recognized, exiting program.");
+            System.out.println("Command from argument 1 not recognized, try 'search' instead. Exiting program.");
             System.exit(0);
         }
     }
